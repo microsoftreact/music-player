@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./media/My_LOGO.jpg" type="image/x-icon">
+    <!-- Css file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Music Player</title>
+    <!-- Author - Toshpulatov Nodirbek -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="./media/My_LOGO.png" class="logo" alt="" />
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SPECIFICATIONS</a></li>
+          <li><a href="#">PRODUCTS</a></li>
+          <li><a href="#">CONNECT</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="left-col">
+          <h1>THE<br />REAL<br />SOUND</h1>
+        </div>
+        <div class="right-col">
+          <p>Click here to Listen</p>
+          <img src="./media/play.png" id="icon" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <audio id="mySong">
+      <source src="./media/audio.mp3" type="audio/mp3" />
+    </audio>
+  </body>
+  <!-- Js file link -->
+  <script src="./js/script.js"></script>
+</html>
